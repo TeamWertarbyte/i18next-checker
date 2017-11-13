@@ -1,0 +1,35 @@
+{
+  "name": "@wertarbyte/i18next-checker",
+  "version": "1.0.0",
+  "description": "A very simple tool that checks for unknown 18next keys being used.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "i18next-checker": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/i18next-checker.git"
+  },
+  "keywords": [
+    "i18next",
+    "test"
+  ],
+  "author": "Wertarbyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/i18next-checker/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/i18next-checker#readme",
+  "devDependencies": {
+    "i18next": "^10.0.7"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "deepmerge": "^2.0.1",
+    "glob": "^7.1.2",
+    "yargs": "^10.0.3"
+  }
+}
