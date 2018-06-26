@@ -1,6 +1,6 @@
 {
   "name": "@wertarbyte/i18next-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple tool that checks for unknown 18next keys being used.",
   "main": "index.js",
   "scripts": {
