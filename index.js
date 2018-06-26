@@ -24,7 +24,7 @@ glob(argv.resources, (err, resources) => {
 
     i18next.init({
       defaultNS: argv.defaultNs,
-      resources: { en: resources.map((file) => JSON.parse(fs.readFileSync(file))).reduce(deepMerge, {}) },
+      resources: { en: resources.map((file) => JSON.parse(fs.readFileSync(file))).reduce((all, r) => deepMerge(all, r), {}) },
       lng: 'en'
     })
     for (const file of sources) {
